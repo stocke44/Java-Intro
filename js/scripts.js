@@ -1,7 +1,7 @@
 //red, orange, yellow, green, blue, pink, purple, black, white, and grey
 
 const name = prompt('What is your name?');
-const color = prompt('What is your favorite color amongst the following : red, orange, yellow, green, blue, pink, purple, black, white, and grey?');
+const color = prompt('What is your favorite color amongst the following : red, orange, yellow, green, blue, pink, purple, black, white, and grey?').toLowerCase();
 
 switch(color){
     case 'red':
