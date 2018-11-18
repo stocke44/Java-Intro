@@ -30,7 +30,6 @@ do{
     i++;
 }while(taskList[i]);
 
-alert(taskList);
 
 for(let task of taskList){
     console.log(task);
